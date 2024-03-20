@@ -4,7 +4,7 @@
 #include <QList>
 #include "Enemy.h"
 #include "Game.h"
-
+//comment
 extern Game * game; // there is an external global object called game
 
 Bullet::Bullet(QGraphicsItem *parent): QObject(), QGraphicsRectItem(parent){
